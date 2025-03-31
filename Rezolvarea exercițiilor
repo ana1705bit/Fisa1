@@ -3,23 +3,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rezolvare Exerciții</title>
-    <script>
-        function solveExercises() {
-            let results = [];// Exercițiul 1
-        results.push(3.5 * 15 / 5 + 7 * (3 - 4));
-        
-        // Exercițiul 2
-        results.push(Math.log(27) / Math.log(8));
-        
-        // Exercițiul 3
-        results.push(Math.pow(5, 3) - 4 * (Math.log(125) / Math.log(5)) + Math.sqrt(16));
-        
-        // Afișare rezultate
-        document.getElementById("result1").textContent = results[0];
-        document.getElementById("result2").textContent = results[1].toFixed(3);
-        document.getElementById("result3").textContent = results[2];
-    }
-</script>
 
 </head>
 <body onload="solveExercises()">
